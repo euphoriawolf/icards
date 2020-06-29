@@ -11,20 +11,18 @@
             <img id="linkedin_icon" src="/linkedin.90c4945d.png">
             <img id="twitter_icon" src="/twitter.86d5ceec.png">
             <img id="instagram_icon" src="/instagram.77044c70.png">
+            <img src="/me.83db5c0b.jpg" id="profile_image">
         </a-assets>
-        <a-entity geometry="primitive: plane" material="src: #whatsapp_icon; shader: flat;" position="-2 0 0" scale="0.5 0.5 0.5">
-        </a-entity>
-        <a-entity geometry="primitive: plane" material="src: #linkedin_icon; shader: flat;" position="-1.5 0 0" scale="0.5 0.5 0.5">
-        </a-entity>
-        <a-entity geometry="primitive: plane" material="src: #twitter_icon; shader: flat;" position="-1 0 0" scale="0.5 0.5 0.5">
-        </a-entity>
-        <a-entity geometry="primitive: plane" material="src: #instagram_icon; shader: flat;" position="-0.5 -0 0" scale="0.5 0.5 0.5">
-        </a-entity>
-        <!-- <a-entity position="0 -1 0" scale="0.05 0.05 0.05"
-            gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf">
-        </a-entity> -->
+        
+        <a-image src="#whatsapp_icon" position="-1.7 -1 0" scale="0.6 0.6 0.6" rotation="-90 0 0"></a-image>
+        <a-image src="#linkedin_icon" position="-1.1 -1 0" scale="0.6 0.6 0.6" rotation="-90 0 0"></a-image>
+        <a-image src="#twitter_icon" position="-0.6 -1 0" scale="0.6 0.6 0.6" rotation="-90 0 0"></a-image>
+        <a-image src="#instagram_icon" position="0 -1 0" scale="0.6 0.6 0.6" rotation="-90 0 0"></a-image>
+        <a-image src="#profile_image" position="1 2.2 0" scale="1 1 1" rotation="-90 0 0"></a-image>
+
+
+       
         <a-marker-camera preset="kanji"></a-marker-camera>
-        <a-entity camera=""></a-entity>
     </a-scene>
 </body>
 
